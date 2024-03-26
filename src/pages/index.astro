@@ -1,0 +1,74 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Gallery } from "../components/gallery";
+import ServiceCard from "../components/ServiceCard.astro";
+import Info from "../components/Info.astro";
+
+import data from "../../data.json";
+
+import About from "../components/About.astro";
+---
+
+<Layout title="Welcome to QuickLinkr">
+  <main class="p-5 md:p-10">
+    <div id="#about">
+      <About />
+    </div>
+    <div id="divider"></div>
+
+    <div class="mb-10" id="services">
+      <div class="flex flex-col items-center mb-20">
+        <h2 class="text-6xl my-10 font-bold mb-5" id="main-title">
+          Our services
+        </h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+        {
+          data["services"].map((service) => (
+            <ServiceCard title={service.title} image={service.image} />
+          ))
+        }
+      </div>
+    </div>
+
+    <div id="divider"></div>
+
+    <div class="mb-20" id="gallery">
+      <div class="flex flex-col items-center my-15">
+        <h2 class="text-6xl my-10 font-bold mb-5" id="main-title">
+          Our Gallery
+        </h2>
+      </div>
+      <Gallery client:load />
+    </div>
+
+    <div id="divider"></div>
+    <div id="contact">
+      <Info />
+    </div>
+  </main>
+</Layout>
+
+<style>
+  #divider {
+    height: 2px;
+    width: 60%;
+    margin: auto;
+    background: blue;
+    background: linear-gradient(
+      90deg,
+      hsl(0, 0%, 20%),
+      hsl(0, 0%, 70%),
+      hsl(0, 0%, 20%)
+    );
+  }
+
+  #main-title {
+    font-family: "Poppins", sans-serif;
+    color: #34495e;
+  }
+
+  #services {
+    min-height: 700px;
+  }
+</style>

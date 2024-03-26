@@ -1,0 +1,128 @@
+
+{
+    "gallery": [
+        {
+            "src": "src/images/auto1.webp",
+            "title": "Image 1",
+            "id": 1,
+            "category": "wrap-vinyl"
+        },
+        {
+            "src": "src/images/auto2.webp",
+            "title": "Image 2",
+            "id": 2,
+            "category": "auto-detailing"
+        },
+        {
+            "src": "src/images/auto3.webp",
+            "title": "Image 3",
+            "id": 3,
+            "category": "car-wash"
+        },
+        {
+            "src": "src/images/auto4.webp",
+            "title": "Image 4",
+            "id": 4,
+            "category": "painting"
+        },
+        {
+            "src": "src/images/auto4.webp",
+            "title": "Image 4",
+            "id": 5,
+            "category": "painting"
+        },
+        {
+            "src": "src/images/auto3.webp",
+            "title": "Image 3",
+            "id": 6,
+            "category": "car-wash"
+        },
+        {
+            "src": "src/images/auto3.webp",
+            "title": "Image 3",
+            "id": 7,
+            "category": "car-wash"
+        },
+        {
+            "src": "src/images/auto3.webp",
+            "title": "Image 3",
+            "id": 8,
+            "category": "car-wash"
+        }
+
+        
+    ],
+    "social": [
+        {
+            "title": "Facebook",
+            "link": "https://www.facebook.com"
+            
+        },
+        {
+            "title": "Instagram",
+            "link": "https://www.instagram.com"
+        },
+        {
+            "title": "TikTok",
+            "link": "https://www.tiktok.com"
+        }
+        
+    
+
+    ],
+    "contact": {
+        "phone": "+123456789",
+        "email": "",
+        "address": "1234 Street Name, City Name"
+    },
+    
+        "about": {
+          "title": "About Us",
+          "description": "Welcome to our auto body shop, where automotive excellence and personalized service converge. With a profound passion for cars and an unwavering commitment to quality craftsmanship, we strive to surpass your expectations with every repair and customization project. Our seasoned team blends expertise with meticulous attention to detail, ensuring your vehicle receives the utmost care it deserves. At our shop, we're dedicated to delivering exceptional service and unmatched results, making us your premier destination for all your auto body needs."
+        },
+      
+
+    "services": [
+        {
+            "title": "Auto Detailing",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "image": "src/images/auto2.webp"
+        },
+        {
+            "title": "Car Wash",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "image": "src/images/auto3.webp"
+        },
+        {
+            "title": "Wrap Vinyl",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "image": "src/images/auto3.webp"
+        },
+        {
+            "title": "Painting",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+            "image": "src/images/auto4.webp"
+        }
+    ],
+    "menu": [
+        
+        {
+            "title": "About",
+            "link": "#about"
+        },
+        {
+            "title": "Services",
+            "link": "#services"
+        },
+        {
+            "title": "Gallery",
+            "link": "#gallery"
+        },
+        {
+            "title": "Contact",
+            "link": "#contact"
+        }
+    ]
+
+        
+}
