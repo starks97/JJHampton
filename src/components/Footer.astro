@@ -13,7 +13,12 @@ import { Image } from "astro:assets";
     >
       <div class="mb-6 md:mb-0">
         <a href="/" class="flex items-center">
-          <Image src={logo} width={250} height={300} alt="FlowBite Logo" />
+          <Image
+            src="/images/logo.webp"
+            width={250}
+            height={300}
+            alt="FlowBite Logo"
+          />
         </a>
       </div>
       <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -75,7 +80,7 @@ import { Image } from "astro:assets";
       </span>
 
       <div
-        class="flex mt-4 sm:justify-center md:mt-0 space-x-5 rtl:space-x-reverse items-center"
+        class="flex mt-4 justify-center md:mt-0 space-x-5 rtl:space-x-reverse items-center"
       >
         <a href="#" class="text-gray-400 hover:text-gray-200">
           <svg

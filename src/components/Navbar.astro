@@ -3,7 +3,7 @@ import { Image } from "astro:assets";
 
 import data from "../../data.json";
 
-import logo from "../images/logo.webp";
+import logo from "../../public/images/logo.webp";
 ---
 
 <nav class="border-b border-gray-500" id="navbar">
@@ -12,7 +12,7 @@ import logo from "../images/logo.webp";
   >
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
       <Image
-        src={logo}
+        src="/images/logo.webp"
         class=""
         alt="JJ Hampton Luxury Autowork"
         width={120}

@@ -2,49 +2,49 @@
 {
     "gallery": [
         {
-            "src": "src/images/auto1.webp",
+            "src": "/images/auto1.webp",
             "title": "Image 1",
             "id": 1,
             "category": "wrap-vinyl"
         },
         {
-            "src": "src/images/auto2.webp",
+            "src": "/images/auto2.webp",
             "title": "Image 2",
             "id": 2,
             "category": "auto-detailing"
         },
         {
-            "src": "src/images/auto3.webp",
+            "src": "/images/auto3.webp",
             "title": "Image 3",
             "id": 3,
             "category": "car-wash"
         },
         {
-            "src": "src/images/auto4.webp",
+            "src": "/images/auto4.webp",
             "title": "Image 4",
             "id": 4,
             "category": "painting"
         },
         {
-            "src": "src/images/auto4.webp",
+            "src": "/images/auto4.webp",
             "title": "Image 4",
             "id": 5,
             "category": "painting"
         },
         {
-            "src": "src/images/auto3.webp",
+            "src": "/images/auto3.webp",
             "title": "Image 3",
             "id": 6,
             "category": "car-wash"
         },
         {
-            "src": "src/images/auto3.webp",
+            "src": "/images/auto3.webp",
             "title": "Image 3",
             "id": 7,
             "category": "car-wash"
         },
         {
-            "src": "src/images/auto3.webp",
+            "src": "/images/auto3.webp",
             "title": "Image 3",
             "id": 8,
             "category": "car-wash"
@@ -86,22 +86,22 @@
         {
             "title": "Auto Detailing",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "image": "src/images/auto2.webp"
+            "image": "/images/auto2.webp"
         },
         {
             "title": "Car Wash",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "image": "src/images/auto3.webp"
+            "image": "/images/auto3.webp"
         },
         {
             "title": "Wrap Vinyl",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "image": "src/images/auto3.webp"
+            "image": "/images/auto3.webp"
         },
         {
             "title": "Painting",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-            "image": "src/images/auto4.webp"
+            "image": "/images/auto4.webp"
         }
     ],
     "menu": [
